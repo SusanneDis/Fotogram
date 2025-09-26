@@ -31,8 +31,6 @@ let imageRef = document.getElementById("imageRef");
 let currentIndex = 0;
 let closeDialogBtn = document.getElementById('closeDialogRef');
 
-
-
 /* Caroussel-Index*/
 
 function showImage(index) {

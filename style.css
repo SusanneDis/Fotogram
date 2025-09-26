@@ -5,7 +5,6 @@
   font-weight: normal;
 }
 
-
 * {
   margin: 0;
   box-sizing: border-box;
@@ -26,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-    }
+}
 
 /* Header-Section*/
 
@@ -36,7 +35,6 @@ header {
   display: flex;
   justify-content: start;
   align-items: center;
-
 }
 
 header img {
@@ -66,7 +64,7 @@ h1 {
   margin-block-start: 0.75em;
   margin-block-end: 1.2em;
   color: rgb(221, 220, 216);
-  text-align: center;   
+  text-align: center;
 }
 
 /* Photo-Gallery*/
@@ -88,7 +86,6 @@ h1 {
 .photo-gallery img {
   border-radius: 8px;
 }
-
 
 .image-size {
   width: 360px;
@@ -149,12 +146,12 @@ h1 {
 
 .dialog-content button:focus {
   outline: unset;
-    color: rgba(255, 255, 255, 1);
-  }
+  color: rgba(255, 255, 255, 1);
+}
 
 .arrow {
   position: absolute;
-  top: 0;                     
+  top: 0;
   bottom: 0;
   width: 8%;
   color: rgba(255, 255, 255, 0.5);
