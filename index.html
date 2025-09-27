@@ -11,16 +11,17 @@
 </head>
 
 <body>
-
   <header>
-    <img aria-label="Fotogram Logo" class="adjust-width-center" src="./icons/Fotogram_Logo.svg" alt="Logo Fotogram">
+    <div class="adjust-width-center">
+          <img aria-label="Fotogram Logo" src="./icons/Fotogram_Logo.svg" alt="Logo Fotogram">
+    </div>    
   </header>
 
   <main id="tabMain">
-    <h1 id="headline" tabindex="0">McLaren 765 LT Spider</h1>
+    <h1 id="headline" tabindex="0"  class="adjust-width-center">McLaren 765 LT Spider</h1>
 
     <section title="Fotogalerie McLaren 765 LT Spider" aria-label="Fotogalerie McLaren 765 LT Spider"
-      class="photo-gallery">
+      class="photo-gallery adjust-width-center">
       <button aria-haspopup="dialog" aria-controls="openDialogRef" tabindex="0" onclick="openDialog(0)">
         <img src="./img/1-mclaren-765-lt-spider-orange-front-wing-doors.jpg" class="image-size"
           alt="McLaren 765 LT Spider orange frontal mit offenen Flügeltüren">
@@ -128,7 +129,7 @@
     </section>
 
     <section aria-label="Dialog">
-      <dialog id="openDialogRef" class="open-dialog" aria-describedby="image-Ref">
+      <dialog id="openDialogRef" class="open-dialog">
         <figure class="dialog-content">
           <button title="Bild wechseln nach links" class="arrow arrow-left" tabindex="0"
             aria-label="Bild wechseln nach links" onclick="showImage(currentIndex - 1)"><span>&#10094;</span></button>
@@ -143,7 +144,7 @@
 
   </main>
 
-  <footer aria-label="Footer">
+  <footer aria-label="Footer" class="adjust-width-center">
     <p aria-label="Copyright-Hinweis">
       <small>&#169;2025 Susanne Di Sorbo. All Rights reserved
       </small>

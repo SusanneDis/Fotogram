@@ -17,14 +17,13 @@ html {
 }
 
 .adjust-width-center {
-  max-width: 1920px;
+  padding-inline: max((100% - 1920px) / 2, 16px);
 }
 
 body {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  flex: 1;
+  flex-direction: column;  
 }
 
 /* Header-Section*/
@@ -38,16 +37,15 @@ header {
 }
 
 header img {
-  width: 400px;
-  padding-left: 50px;
-  padding-right: 50px;
+  width: 350px;
+  padding-left: 100px;
 }
 
 /* Main-Section*/
 
 main {
   width: 100%;
-  height: auto;
+  min-height: calc(100vh - 320px);
   background-color: rgb(7, 25, 33);
   display: flex;
   flex-direction: column;
@@ -59,7 +57,7 @@ main {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   margin-block-start: 0.75em;
   margin-block-end: 1.2em;
@@ -88,8 +86,8 @@ h1 {
 }
 
 .image-size {
-  width: 360px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
   object-position: center;
 }
